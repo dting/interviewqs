@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Problems</h1>
+
+
+
+  <div class="trigger">
+  </div>
+  <ul class="post-list">
+    {% for my_page in site.pages %}
+    {% if my_page.title %}
+    <li>
+      <h2>
+      <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+      </h2>
+    </li>
+
+    {% endif %}
+    {% endfor %}
+  </ul>
+
+</div>
