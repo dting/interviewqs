@@ -79,6 +79,6 @@ X > X --------> X ----> X ----> 4     <- shortest
 
 # Solutions
 
-[ShortestPath](https://github.com/dting/interviewqs/blob/gh-pages/shortestpath/src/QueueUsingStacks.js)
+[ShortestPath](https://github.com/dting/interviewqs/blob/gh-pages/shortestpath/src/ShortestPath.js)
 
 [Tests](tests.html)
