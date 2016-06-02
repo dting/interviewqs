@@ -77,4 +77,8 @@ X > X --------> X ----> X ----> 4     <- shortest
                  X
 ```
 
-# [Tests](tests.html)
+# Solutions
+
+[ShortestPath](https://github.com/dting/interviewqs/blob/gh-pages/shortestpath/src/ShortestPath.js)
+
+[Tests](tests.html)
