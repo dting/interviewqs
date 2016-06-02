@@ -33,15 +33,17 @@ class Queue {
  */
 class Stack {
   constructor() {
-    this.size = 0;
     this.data = [];
+    this.size = 0;
   }
 
   push(element) {
     this.data.push(element);
+    this.size++;
   }
 
   pop() {
+    this.size--;
     return this.data.pop();
   }
 }
