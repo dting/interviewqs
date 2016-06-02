@@ -7,15 +7,15 @@ title: ShortestPath
 
 ```javascript
 /**
-* Return shortest path for array, arr
-*
-* Values of arr are the max steps forward allowed from
-* that position in the array. The shortest path is the
-* minimum number of of segments needed to advance past
-* the end of arr.
-**/
+ * Return shortest path for array, arr
+ *
+ * Values of arr are the max steps forward allowed from
+ * that position in the array. The shortest path is the
+ * minimum number of of segments needed to advance past
+ * the end of arr.
+ */
 function shortestPath(arr) {
-// Implementation
+  // Implementation
 }
 ```
 
@@ -79,6 +79,6 @@ X > X --------> X ----> X ----> 4     <- shortest
 
 # Solutions
 
-[ShortestPath](https://github.com/dting/interviewqs/blob/gh-pages/shortestpath/src/ShortestPath.js)
+[ShortestPath](https://github.com/dting/interviewqs/blob/gh-pages/shortestpath/src/QueueUsingStacks.js)
 
 [Tests](tests.html)

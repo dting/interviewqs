@@ -6,7 +6,7 @@ const PROBLEM = `/**
  * that position in the array. The shortest path is the
  * minimum number of of segments needed to advance past
  * the end of arr.
- **/
+ */
 function shortestPath(arr) {
   // Implementation
 }`;

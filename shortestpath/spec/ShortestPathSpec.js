@@ -58,15 +58,15 @@ const runTests = (shortestPath) => {
   });
 };
 
-describe("Shortest Path", () => {
-  xdescribe('PROBLEM:', () => {
-    xdescribe(PROBLEM, noop);
-  });
+xdescribe('PROBLEM:', () => {
+  xdescribe(PROBLEM, noop);
+});
 
-  xdescribe('HINT:', () => {
-    xdescribe(HINT, noop);
-  });
+xdescribe('HINT:', () => {
+  xdescribe(HINT, noop);
+});
 
+describe('Shortest Path', () => {
   describe('SOLUTIONS:', () => {
     describe('Breadth First Search', () => {
       xdescribe('Worst case time complexity for the BFS shortest path is O(n)', noop);
