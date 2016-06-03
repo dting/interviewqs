@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ShortestPath
+title: Shortest Path
 ---
 
 # Problem

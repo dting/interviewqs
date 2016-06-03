@@ -1,6 +1,6 @@
 ---
 layout: jasmine
-problem: ShortestPath
+problem: Shortest Path
 spec: ShortestPathSpec
 src: ShortestPath
 ---
