@@ -18,15 +18,13 @@ Possible sum of squares:
     1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1
     1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 4
     1 + 1 + 1 + 1 + 4 + 4
-    4 + 4 + 4
     1 + 1 + 1 + 9
+    4 + 4 + 4
 
 Shortest sum of squares is:
-
     4 + 4 + 4
     2^2 + 2^2 + 2^2
 
 Since we want the roots, the answer is:
-
    [2, 2, 2]
 `;
