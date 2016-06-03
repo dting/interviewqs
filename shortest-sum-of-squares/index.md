@@ -47,6 +47,6 @@ Since we want the roots, the answer is:
 
 [Tests](tests.html)
 
-## Notes
+# Notes
 
 This question is a variation of the [Change-making problem](https://en.wikipedia.org/wiki/Change-making_problem), using square numbers less than n as the coin values.
