@@ -42,17 +42,17 @@ function recursiveMemoizedShortestSumOfSquares(n) {
 }
 
 function dynamicProgrammingShortestSumOfSquares(n) {
-  const SQUARES = Array.from(new Array(Math.sqrt(n) | 0).keys()).map(i => Math.pow(i + 1, 2));
+  const SQUARES = [...new Array(Math.sqrt(n) | 0)].map((v, i) => Math.pow(i + 1, 2));
   const shortest = [[]];
   for (let i = 1; i <= n; i++) {
     const table = [];
-    for (let square of SQUARES) {
+    for (const square of SQUARES) {
       if (square > i) {
         break;
       }
-      table.push([i - (i - square)].concat(...shortest[i - square]));
+      table.push([square].concat(...shortest[i - square]));
     }
-    for (let entry of table) {
+    for (const entry of table) {
       if (!shortest[i] || shortest[i].length > entry.length) {
         shortest[i] = entry;
       }
